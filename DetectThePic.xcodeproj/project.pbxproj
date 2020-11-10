@@ -13,6 +13,7 @@
 		3E06F490255A60E6006F2A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E06F48E255A60E6006F2A3F /* Main.storyboard */; };
 		3E06F492255A60E7006F2A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E06F491255A60E7006F2A3F /* Assets.xcassets */; };
 		3E06F495255A60E7006F2A3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E06F493255A60E7006F2A3F /* LaunchScreen.storyboard */; };
+		3E06F49E255A7086006F2A3F /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3E06F49D255A7086006F2A3F /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3E06F491255A60E7006F2A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E06F494255A60E7006F2A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E06F496255A60E7006F2A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E06F49D255A7086006F2A3F /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		3E06F487255A60E6006F2A3F /* DetectThePic */ = {
 			isa = PBXGroup;
 			children = (
+				3E06F49D255A7086006F2A3F /* Resnet50.mlmodel */,
 				3E06F488255A60E6006F2A3F /* AppDelegate.swift */,
 				3E06F48A255A60E6006F2A3F /* SceneDelegate.swift */,
 				3E06F48C255A60E6006F2A3F /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			files = (
 				3E06F48D255A60E6006F2A3F /* ViewController.swift in Sources */,
 				3E06F489255A60E6006F2A3F /* AppDelegate.swift in Sources */,
+				3E06F49E255A7086006F2A3F /* Resnet50.mlmodel in Sources */,
 				3E06F48B255A60E6006F2A3F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
