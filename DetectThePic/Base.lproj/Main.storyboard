@@ -42,8 +42,16 @@
                     </view>
                     <navigationItem key="navigationItem" title="Detect The Pic" id="bd5-rg-9bj">
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="camera" id="4jc-Ek-ZAo"/>
-                            <barButtonItem systemItem="organize" id="Sgo-tj-ZBb"/>
+                            <barButtonItem systemItem="camera" id="4jc-Ek-ZAo">
+                                <connections>
+                                    <action selector="cameraTapped:" destination="7aJ-sN-9fB" id="pgQ-hk-6ev"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="organize" id="Sgo-tj-ZBb">
+                                <connections>
+                                    <action selector="photoTapped:" destination="7aJ-sN-9fB" id="EFG-dX-wf9"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
